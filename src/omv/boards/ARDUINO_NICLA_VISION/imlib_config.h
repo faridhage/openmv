@@ -39,7 +39,7 @@
 #define IMLIB_ENABLE_MATH_OPS
 
 // Enable flood_fill()
-#define IMLIB_ENABLE_FLOOD_FILL
+//#define IMLIB_ENABLE_FLOOD_FILL  added by NV
 
 // Enable mean()
 #define IMLIB_ENABLE_MEAN
@@ -86,25 +86,25 @@
 #endif
 
 // Enable get_similarity()
-#define IMLIB_ENABLE_GET_SIMILARITY
+//#define IMLIB_ENABLE_GET_SIMILARITY  added by NV
 
 // Enable find_lines()
-#define IMLIB_ENABLE_FIND_LINES
+//#define IMLIB_ENABLE_FIND_LINES  added by NV
 
 // Enable find_line_segments()
-#define IMLIB_ENABLE_FIND_LINE_SEGMENTS
+//#define IMLIB_ENABLE_FIND_LINE_SEGMENTS  added by NV
 
 // Enable find_circles()
-#define IMLIB_ENABLE_FIND_CIRCLES
+//#define IMLIB_ENABLE_FIND_CIRCLES  added by NV
 
 // Enable find_rects()
-#define IMLIB_ENABLE_FIND_RECTS
+//#define IMLIB_ENABLE_FIND_RECTS  added by NV
 
 // Enable find_qrcodes() (14 KB)
-#define IMLIB_ENABLE_QRCODES
+//#define IMLIB_ENABLE_QRCODES  added by NV
 
 // Enable find_apriltags() (64 KB)
-#define IMLIB_ENABLE_APRILTAGS
+//#define IMLIB_ENABLE_APRILTAGS  added by NV
 
 // Enable fine find_apriltags() - (8-way connectivity versus 4-way connectivity)
 // #define IMLIB_ENABLE_FINE_APRILTAGS
@@ -113,15 +113,15 @@
 // #define IMLIB_ENABLE_HIGH_RES_APRILTAGS
 
 // Enable find_datamatrices() (26 KB)
-#define IMLIB_ENABLE_DATAMATRICES
+//#define IMLIB_ENABLE_DATAMATRICES  added by NV
 
 // Enable find_barcodes() (42 KB)
-#define IMLIB_ENABLE_BARCODES
+//#define IMLIB_ENABLE_BARCODES added by NV
 
 // Enable find_features() and built-in Haar cascades. (75KBs)
 #define IMLIB_ENABLE_FEATURES
-#define IMLIB_ENABLE_FEATURES_BUILTIN_FACE_CASCADE
-#define IMLIB_ENABLE_FEATURES_BUILTIN_EYES_CASCADE
+//#define IMLIB_ENABLE_FEATURES_BUILTIN_FACE_CASCADE  added by NV
+//#define IMLIB_ENABLE_FEATURES_BUILTIN_EYES_CASCADE  added by NV
 
 // Enable CMSIS NN
 // #if !defined(CUBEAI)
@@ -137,16 +137,16 @@
 //#define IMLIB_ENABLE_FAST
 
 // Enable find_template()
-#define IMLIB_FIND_TEMPLATE
+//#define IMLIB_FIND_TEMPLATE  added by NV
 
 // Enable find_lbp()
 //#define IMLIB_ENABLE_FIND_LBP
 
 // Enable find_keypoints()
-#define IMLIB_ENABLE_FIND_KEYPOINTS
+//#define IMLIB_ENABLE_FIND_KEYPOINTS  added by NV
 
 // Enable load, save and match descriptor
-#define IMLIB_ENABLE_DESCRIPTOR
+//#define IMLIB_ENABLE_DESCRIPTOR  added by NV
 
 // Enable find_hog()
 // #define IMLIB_ENABLE_HOG
